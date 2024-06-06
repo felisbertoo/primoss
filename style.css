@@ -6,82 +6,20 @@
     box-sizing: border-box;
     
     }
-    body{
-        background: linear-gradient(90.15deg,rgb(255, 255, 255) 50.62%,rgb(255, 255, 255) 85.61%);
-        
-    }
-    .cabeçario{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding: 90px;
-    }
-
-    .logo{
-        width: 90px;
-        height: 90px;
-        margin-top:-10px;
-    }
-
-    .itens{
-        display:flex;
-        gap: 500px;
-        font-size: 18px;
-        font-family: 'Sarala', sans-serif;
-        font-weight: 400;
-        color: white;
-        text-decoration: none;
-    }   
-   
-    .mid1{
-        display: flex;
-        flex-direction: bloco;
-        justify-content: space-around; 
-        gap: 60px; 
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 10%;
-    }
-
-    .borda{
-        border-top: 50px solid #ff1010;
-        
-    }
-
-
     
-    .fot{
-        border-top: 90px solid #ff1010; 
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        bottom: 0;
-        padding: 20px;
-        font-family:'Sarala', sans-serif;
-    }
+    
 
-    .fundo{
-        background-color: #FF1010;
-        height:325px;
-        width:100%;
-        margin-bottom:0px;
-        
-        }
+    @media (max-width: 360px) {
 
-
-   /*MOBILE*/
-
-    @media (max-width: 740px) {
-
+       
         .fundo{
-            height: 360px;
+            height: 740px;
             }
         }
 
    /*tablet*/
 
-     @media (min-width: 1024) {
+     @media (min-width: 1024px) {
          .fundo{
              height:1366;
          }
@@ -89,12 +27,49 @@
 
    /*desktop*/
 
-      @media (min-width: 1980) {
-         .fundo{
-             height:1080;
-         }
+      @media (min-width: 1980px) {
+        
+        .menu__hamburguer{
+            
+            padding:20px;
+            width:150px;
+            
+    
         }
-    
+
+        .menu__panda{
+            
+            width:150px;
+            height:150px;
+
+        }
+
+        .menu__caixaText{
+            border-radius: 30px;
+            width:300px;
+            text-align: center;
+            
+        }
 
 
-    
+        .menu__block{
+            background-color: #DA0000;
+            width:100%;
+            height: 40px;
+            display: block;
+            align-items: center;
+
+        }
+        .menu__block__text{
+            margin-left: 16%;
+            margin-top:-5px;
+            height:200px;
+            color:white;
+            font-size: 30px;
+            
+            
+
+            
+            
+        }
+        }
