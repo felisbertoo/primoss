@@ -6,10 +6,12 @@
     box-sizing: border-box;
     .
     }
-    
+    body{
+        width:100%;
+    }    
     
 
-    @media (max-width: 360px) {
+    @media (min-width: 360px) {
 
        
         .fundo{
@@ -19,7 +21,7 @@
 
    /*tablet*/
 
-     @media (min-width: 1024px) {
+     @media (min-width: 481px) and (max-width: 1024px) {
          .fundo{
              height:1366;
          }
@@ -27,16 +29,30 @@
 
    /*desktop*/
 
-      @media (min-width: 1980px) {
-        header{
+      @media (min-width: 1025px) {
+       header{
+            
             
             width:100%;
-            align-items: center;
+            height:150px;
+            }
+        
+            
+            
+            
             
         }
-        .menu__intensDeCima{
-            display:block;
+
+        .menu__intensDeCima{ 
+            
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+            gap:50px;
+        
         }
+     
         .menu__hamburguer{
             
             padding:20px;
@@ -49,7 +65,7 @@
             
             width:150px;
             height:150px;
-            background-color: gray;
+           
 
         }
 
@@ -58,8 +74,7 @@
             width:400px;
             text-align: center;
             margin-left: 30%;
-            margin-
-            ;
+            
             
             
         }
@@ -84,25 +99,13 @@
 
             
             
-        }
+        }*/
         }
  body{
         background: linear-gradient(90.15deg,rgb(255, 255, 255) 50.62%,rgb(255, 255, 255) 85.61%);
         
     }
-    .cabeçario{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        padding: 90px;
-    }
-
-    .logo{
-        width: 90px;
-        height: 90px;
-        margin-top:-10px;
-    }
+    
 
     .itens{
         display:flex;
