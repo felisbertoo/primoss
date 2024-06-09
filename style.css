@@ -283,23 +283,4 @@ tablet: 2048x1536
 Desktop: 2560x1440
 */
 
-   /*MOBILE*/
-
-    @media (max-width: 740px) {
-
-        .fundo{
-            height: 360px;
-            }
-        }
-
-   /*tablet*/
-
-     @media (min-width: 1024) {
-         .fundo{
-             height:1366;
-
-   /*desktop*/
-
-      @media (min-width: 1980) {
-         .fundo{
-             height:1080;
+   
