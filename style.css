@@ -49,7 +49,7 @@ body {
     }
 
     .menu__block {
-        background-color: #DA0000;
+        background-color: rgb(255, 255, 255);
         width: 100%;
         height: 40px;
         position: fixed;
@@ -95,7 +95,6 @@ body {
         height: 10%;
         width: 100%;
         margin-bottom: 0;
-        position: fixed;
         bottom:0
     }
 }
@@ -116,13 +115,13 @@ body {
     }
 
     .menu__hamburguer {
-        padding: 5px;
-        width: 150px;
+        padding: 15px;
+        width: 80px;
     }
 
     .menu__panda {
-        width: 150px;
-        height: 150px;
+        width: 90px;
+        height: 90px;
     }
 
     .menu__caixaText {
@@ -133,27 +132,27 @@ body {
     }
 
     .menu__block {
-        background-color: #DA0000;
+        background-color: #ff1010;
         width: 100%;
         height: 40px;
-        position: fixed;
+    
         align-items: center;
     }
     .menu__perfil{
-        width:100px
+        width:60px
     }
 
     .menu__block__text {
-        margin-left: 16%;
+        margin-left: 14%;
         margin-top: -5px;
         height: 200px;
         color: white;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .menu__carrinho {
-        margin-right: 5px;
-        width: 100px;
+        margin-right: 45px;
+        width:60px;
     }
 
     .itens {
@@ -173,10 +172,6 @@ body {
         padding-top: 100px;
         padding-bottom: 100px;
         padding-left: 10%;
-    }
-
-    .borda {
-        border-top: 50px solid #ff1010;
     }
 
     .fot {
@@ -191,7 +186,7 @@ body {
 }
 
 
-@media (min-width: 2049px) {
+@media (min-width: 2048px) {
     header {
         width: 100%;
         height: 150px;
@@ -206,7 +201,7 @@ body {
 
     .menu__hamburguer {
         padding: 5px;
-        width: 90px;
+        width: 80px;
     }
 
     .menu__panda {
@@ -216,33 +211,31 @@ body {
 
     .menu__caixaText {
         border-radius: 30px;
-        width: 400px;
+        width: 450px;
         text-align: center;
         padding: 5px;
     }
 
     .menu__block {
-        background-color: #DA0000;
-        width: 100%;
-        height: 40px;
-        position: fixed;
+        background-color: #ff1010;
+        width: 100%;    
         align-items: center;
     }
     .menu__perfil{
-        width:100px
+        width: 80px;
     }
 
     .menu__block__text {
         margin-left: 16%;
         margin-top: -5px;
-        height: 200px;
+        height: 150px;
         color: white;
-        font-size: 30px;
+        font-size: 15px;
     }
 
     .menu__carrinho {
         margin-right: 5px;
-        width: 100px;
+        width: 50px;
     }
 
     .itens {
@@ -264,16 +257,12 @@ body {
         padding-left: 10%;
     }
 
-    .borda {
-        border-top: 50px solid #ff1010;
-    }
-
     .fot {
         background-color: #FF1010;
         height: 10%;
         width: 100%;
         margin-bottom: 0;
-        position: fixed;
+        display: fixed;
         bottom:0
     }
 }
