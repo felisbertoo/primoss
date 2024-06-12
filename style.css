@@ -90,15 +90,46 @@ body {
 
    
 
-     .fot{
+      .fot {
         background-color: #FF1010;
+        height: 250px;
         width: 100%;
         margin-bottom: 0;
         bottom:0;
         position:fixed;
         left: 0;
-        text-align: center;
+       
     }
+    .panda_rodape{
+        margin-top: 22px;
+       margin-left: 15px;  
+        }
+
+
+    
+    .info{
+         margin-top: -30px;
+         margin-left: 3%;
+        }
+
+    
+
+     .atendimento{
+         margin-top: -40px;
+         margin-left: 34%;
+        
+}
+
+    .pagamentos{
+        margin-top: -80px;
+        margin-left: 85%; 
+
+        
+        }
+    .redes_sociais{
+        margin-top: 80px;
+        margin-left: 85%;
+        }
 }
 
 
@@ -178,13 +209,47 @@ body {
 
     .fot {
         background-color: #FF1010;
+        height: 250px;
         width: 100%;
         margin-bottom: 0;
         bottom:0;
         position:fixed;
         left: 0;
-        text-align: center;
+       
     }
+    .panda_rodape{
+        margin-top: 22px;
+       margin-left: 15px;  
+        }
+
+
+    
+    .info{
+         margin-top: -30px;
+         margin-left: 3%;
+        }
+
+    
+
+     .atendimento{
+         margin-top: -40px;
+         margin-left: 34%;
+        
+}
+
+    .pagamentos{
+        margin-top: -80px;
+        margin-left: 85%; 
+
+        
+        }
+    .redes_sociais{
+        margin-top: 80px;
+        margin-left: 85%;
+        }
+
+
+
 
 }
 
@@ -263,14 +328,46 @@ body {
     }
 
     .fot {
-         background-color: #FF1010;
+        background-color: #FF1010;
+        height: 250px;
         width: 100%;
         margin-bottom: 0;
         bottom:0;
         position:fixed;
         left: 0;
-        text-align: center;
+       
     }
+    .panda_rodape{
+        margin-top: 22px;
+       margin-left: 15px;  
+        }
+
+
+    
+    .info{
+         margin-top: -30px;
+         margin-left: 3%;
+        }
+
+    
+
+     .atendimento{
+         margin-top: -40px;
+         margin-left: 34%;
+        
+}
+
+    .pagamentos{
+        margin-top: -80px;
+        margin-left: 85%; 
+
+        
+        }
+    .redes_sociais{
+        margin-top: 80px;
+        margin-left: 85%;
+        }
+
 }
 
 /*Smartphone:720x1280
