@@ -92,11 +92,12 @@ body {
 
      .fot{
         background-color: #FF1010;
-        height: 10%;
         width: 100%;
         margin-bottom: 0;
         bottom:0;
-        position:absolute
+        position:fixed;
+        left: 0;
+        text-align: center;
     }
 }
 
@@ -177,11 +178,12 @@ body {
 
     .fot {
         background-color: #FF1010;
-        height: 10%;
         width: 100%;
         margin-bottom: 0;
         bottom:0;
-        position:absolute
+        position:fixed;
+        left: 0;
+        text-align: center;
     }
 
 }
@@ -261,12 +263,13 @@ body {
     }
 
     .fot {
-        background-color: #FF1010;
-        height: 10%;
+         background-color: #FF1010;
         width: 100%;
         margin-bottom: 0;
         bottom:0;
-        position:absolute
+        position:fixed;
+        left: 0;
+        text-align: center;
     }
 }
 
