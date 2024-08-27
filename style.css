@@ -143,12 +143,7 @@ body {
         display: flex;
         align-items: center;
         flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .menu__hamburguer {
-        padding: 15px;
-        width: 80px;
+    
     }
 
     .menu__panda {
@@ -156,12 +151,7 @@ body {
         height: 90px;
     }
 
-    .menu__caixaText {
-        border-radius: 30px;
-        width: 400px;
-        text-align: center;
-        padding: 5px;
-    }
+    
 
     .menu__block {
         background-color: #ff1010;
