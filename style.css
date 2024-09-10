@@ -48,15 +48,15 @@ body {
         margin-right: 20px;
     }
 
-    .menu__block {
+     .sites{
         background-color: #FF1010;
         width: 100%;
-        height: 40px;
+        height: px;
         position: fixed;
         align-items: center;
     }
 
-    .menu__block__text {
+    .links {
         margin-left: 13%;
         margin-top: -5px;
         height: 200px;
@@ -145,6 +145,7 @@ body {
         flex-direction: row;
     
     }
+    
 
     .menu__panda {
         width: 90px;
@@ -153,18 +154,19 @@ body {
 
     
 
-    .menu__block {
+    .sites {
         background-color: #ff1010;
         width: 100%;
-        height: 40px;
-    
+        
+        
         align-items: center;
     }
-    .menu__perfil{
-        width:60px
+    .menu__carrinho{
+        width:60px;
+        margin-right: 100px;
     }
 
-    .menu__block__text {
+    .links {
         margin-left: 14%;
         margin-top: -5px;
         height: 200px;
@@ -172,9 +174,9 @@ body {
         font-size: 25px;
     }
 
-    .menu__carrinho {
-        margin-right: 45px;
-        width:60px;
+    .menu__perfil {
+        margin-right: 60%;
+        width:50px;
     }
 
     .itens {
@@ -214,8 +216,8 @@ body {
 
     
     .info{
-         margin-top: -30px;
-         margin-left: 3%;
+         margin-top: -7%;
+         margin-right: 100%;
         }
 
     
@@ -267,7 +269,7 @@ body {
     }
 
     .menu__caixaText {
-        border-radius: 30px;
+        border-radius: px;
         width: 450px;
         text-align: center;
         padding: 5px;
@@ -284,7 +286,7 @@ body {
         width: 80px;
     }
 
-    .menu__block__text {
+    .sites{
         margin-left: 16%;
         margin-top: -5px;
         height: 150px;
@@ -293,7 +295,7 @@ body {
     }
 
     .menu__carrinho {
-        margin-right: 5px;
+        margin-right: 55px;
         width: 50px;
     }
 
@@ -334,14 +336,14 @@ body {
 
     
     .info{
-         margin-top: -30px;
-         margin-left: 3%;
+         margin-top: 0px;
+         margin-right: 100%;
         }
 
     
 
      .atendimento{
-         margin-top: -40px;
+         align-items: center;
          margin-left: 34%;
         
 }
